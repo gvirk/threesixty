@@ -360,6 +360,7 @@
 <script type="text/javascript">
 
  $('#overlay').modal('show');
+ $("#my_audio").get(0).play();
 
 setTimeout(function() {
     $('#overlay').modal('hide');
@@ -373,10 +374,7 @@ setTimeout(function() {
 
     <audio id="my_audio" src="assets/bck.mp3" loop="loop"></audio>
 
-<script>
-    window.onload = function() {
-    document.getElementById("my_audio").play();
-}
+
 </script>
 
 </body>
