@@ -367,7 +367,17 @@ setTimeout(function() {
 
 
 </script>
+<!--<audio autoplay="true" >
+    -->
 
-<audio autoplay="true" src="assets/bck.mp3">
+
+    <audio id="my_audio" src="assets/bck.mp3" loop="loop"></audio>
+
+<script>
+    window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+</script>
+
 </body>
 </html>
